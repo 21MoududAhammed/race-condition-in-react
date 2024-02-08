@@ -21,7 +21,7 @@ export default function Pagination({ setButtonNum }) {
         className={` ${
           clicked.btn1 ? "bg-gray-500" : "bg-green-600"
         } text-white font-bold px-4 py-2 rounded-lg`}
-        disabled={clicked.btn1 ? true : false}
+        disabled={clicked.btn5 ? true : false}
         onClick={() => {
           handleClickBtn(1);
           setButtonNum(1);
