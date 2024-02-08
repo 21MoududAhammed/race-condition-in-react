@@ -28,6 +28,7 @@ export default function App() {
   }, [value, buttonNum]);
   return (
     <div className="flex flex-col justify-center my-10">
+      <p className="text-center mb-5"><span className="font-bold">Note :</span> Select a button based on your wish. Type something in the text box.</p>
       <Search setValue={setValue} value={value} />
       <Pagination setButtonNum={setButtonNum} />
       <Display output={output} />
